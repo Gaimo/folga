@@ -20,16 +20,16 @@
             <div class="w-full grid grid-rows-5 text-[#708C91] bg-slate-50 h-full rounded-b-3xl max-w-[425px]">
                 <div class="input">
                     <label for="">Última folga:</label>
-                    <input class="bg-inherit" type="date" name="" id="">
+                    <input class="bg-inherit" type="date" name="" id="dayOff">
                 </div>
                 <div class="input">
                     <label for="">Data para verificar:</label>
-                    <input class="bg-inherit" type="date" name="" id="">
+                    <input class="bg-inherit" type="date" name="" id="dayToCheck">
                 </div>
                 <div class="inline-flex items-center ">
-                    <h2 class="w-full text-xl text-center">Resposta</h2>
+                    <h2 id="response" class="w-full text-xl text-center"></h2>
                 </div>
-                <button
+                <button id="btn_check"
                     class="bg-sky-500 rounded-b-3xl text-slate-50 font-Montserrat text-3xl row-span-2">Verificar</button>
             </div>
         </div>
@@ -39,6 +39,7 @@
         </div>
 
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
